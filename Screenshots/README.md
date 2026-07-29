@@ -1,111 +1,30 @@
-# Adventure Works SSAS Multidimensional Cube
-
-## Overview
-
-This project demonstrates the implementation of a **Microsoft SQL Server Analysis Services (SSAS) Multidimensional** cube based on the **Adventure Works DW2019** data warehouse.
-
-The objective of the project is to build a multidimensional analytical model for sales analysis using dimensions, hierarchies, and measure groups.
-
----
-
-## Technologies Used
-
-* SQL Server 2022
-* SQL Server Analysis Services (SSAS) – Multidimensional
-* Visual Studio 2022
-* Adventure Works DW2019
-
----
-
-## Project Structure
-
-* **SSAS**: Contains the SSAS solution, cube definition, and dimension files.
-* **ScreenShots**: Contains screenshots of the project design, dimensions, hierarchies, and cube configuration.
-
----
-
-## Implemented Features
-
-* Multidimensional cube design
-* Dimension modeling
-* Calendar hierarchy
-* Geography hierarchy
-* Product hierarchy
-* Role-playing Date dimensions
-* Measure groups and dimension usage configuration
-* OLAP analytical model for sales analysis
-
----
-
-## Dimensions
-
-The cube includes the following dimensions:
-
-* Date
-* Customer
-* Product
-* Geography
-* Employee
-
----
-
 ## Screenshots Description
 
-### Data Source View
+### Screenshot 1 – Data Source View
 
-Displays the multidimensional data model and relationships between fact tables and dimension tables.
+Displays the Data Source View (DSV) and the relationships between fact tables and dimension tables in the multidimensional model.
 
-### Cube Dimension Usage
+### Screenshot 2 – Cube Dimension Usage
 
-Shows the relationship between measure groups and dimensions, including multiple date roles such as Order Date, Ship Date, and Due Date.
+Shows the relationship between measure groups and dimensions, including role-playing Date dimensions such as Order Date, Ship Date, and Due Date.
 
-### Date Dimension Hierarchy
+### Screenshot 3 – Date Dimension Hierarchy
 
-Demonstrates the calendar hierarchy implemented as **Year → Semester → Quarter → Month**.
+Shows the Date dimension structure and the calendar hierarchy implemented as Year → Semester → Quarter → Month.
 
-### Customer Dimension
+### Screenshot 4 – Customer Dimension
 
-Shows customer-related attributes used for customer segmentation and sales analysis.
+Displays the Customer dimension attributes used for customer analysis and segmentation.
 
-### Employee Dimension
+### Screenshot 5 – Employee Dimension
 
-Shows employee-related attributes used for organizational and sales performance analysis.
+Displays the Employee dimension attributes used for employee and sales performance analysis.
 
-### Geography Dimension Hierarchy
+### Screenshot 6 – Geography Dimension Hierarchy
 
-Demonstrates the geographic hierarchy implemented as **Country → State/Province → City**.
+Shows the Geography hierarchy implemented as Country → State/Province → City.
 
-### Product Dimension Hierarchy
+### Screenshot 7 – Product Dimension Hierarchy
 
-Shows the product hierarchy implemented as **Category → Subcategory → Product**.
+Shows the Product hierarchy implemented as Category → Subcategory → Product.
 
----
-
-## Analytical Capabilities
-
-The cube supports analysis such as:
-
-* Sales trend analysis by year, quarter, and month
-* Product performance analysis
-* Customer sales analysis
-* Geographic sales analysis
-* Employee sales performance analysis
-
----
-
-## How to Open the Project
-
-1. Install **Visual Studio 2022**.
-2. Install the **SQL Server Analysis Services Projects** extension.
-3. Open the solution file.
-4. Deploy the project to an SSAS Multidimensional instance.
-5. Process the database and browse the cube.
-
----
-
-## Author
-
-**Arshia Norouzi**
-
-* GitHub: https://github.com/arshia-norouzi
-* LinkedIn: https://www.linkedin.com/in/arshia-norouzi/
