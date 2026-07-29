@@ -4,8 +4,8 @@ This folder contains the **SQL Server Analysis Services (SSAS) Multidimensional*
 
 ## Included Files
 
-* `MultiDimensionalProject2.sln` – Visual Studio solution file
-* `MultiDimensionalProject2.dwproj` – SSAS project file
+* `AdventureWorksSSAS.sln` – Visual Studio solution file
+* `AdventureWorksSSAS.dwproj` – SSAS project file
 * `Adventure Works DW2019.cube` – Cube definition
 * `DimDate.dim` – Date dimension
 * `DimCustomer.dim` – Customer dimension
