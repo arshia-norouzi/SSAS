@@ -34,7 +34,7 @@ To open and run this project you need:
 
 ## How to Open
 
-1. Open `MultiDimensionalProject2.sln` in Visual Studio.
+1. Open `AdventureWorksSSAS.sln` in Visual Studio.
 2. Build and deploy the project to an SSAS instance.
 3. Process the database.
 4. Browse the cube in SSAS.
