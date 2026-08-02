@@ -1,93 +1,61 @@
-# Adventure Works SSAS Multidimensional Cube
+# SSAS Projects
 
-## Overview
+This repository contains **SQL Server Analysis Services (SSAS)** projects focused on **Multidimensional OLAP modeling, cube design, dimensions, hierarchies, measures, and analytical reporting**.
 
-This repository contains a **Microsoft SQL Server Analysis Services (SSAS) Multidimensional** project built on top of the **Adventure Works DW2019** data warehouse.
+The goal of this repository is to maintain a collection of SSAS practice and portfolio projects built with **Microsoft SQL Server Analysis Services (Multidimensional)** and **Visual Studio**.
 
-The goal of this project is to demonstrate the implementation of a multidimensional analytical model for sales analysis using the Microsoft BI stack.
+---
+
+## Repository Structure
+
+```text
+SSAS/
+│
+├── AdventureWorks/
+│   ├── Analysis Services/
+│   ├── ScreenShots/
+│   └── README.md
+│
+└── README.md
+```
+
+---
+
+## Current Projects
+
+| Project            | Description                                                                                                                                          |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AdventureWorks** | Multidimensional SSAS project based on the AdventureWorks data warehouse. Includes dimensions, hierarchies, cube design, and processing screenshots. |
+
+More SSAS projects will be added to this repository over time.
 
 ---
 
 ## Technologies Used
 
-* SQL Server 2022
 * SQL Server Analysis Services (SSAS) – Multidimensional
 * Visual Studio 2022
-* Adventure Works DW2019
+* SQL Server 2022
+* MDX (future enhancements)
+* AdventureWorksDW sample database
 
 ---
 
-## Project Structure
+## Purpose
 
-```text
-AdventureWorks-SSAS-Cube/
-│
-├── ScreenShots/
-│   ├── cube-browser.png
-│   ├── dimension-date.png
-│   └── hierarchy-calendar.png
-│
-└── SSAS/
-    ├── Adventure Works DW2019.cube
-    ├── DimDate.dim
-    ├── DimCustomer.dim
-    ├── DimProduct.dim
-    ├── DimGeography.dim
-    └── DimEmployee.dim
-```
+This repository is intended to demonstrate practical skills in:
 
----
-
-## Implemented Features
-
-* Multidimensional cube design
-* Dimension modeling
-* Calendar hierarchy
+* Multidimensional modeling
+* Dimension design
 * Attribute relationships
-* Sales analysis by time, customer, product, geography, and employee
-* OLAP browsing and analytical exploration
+* Hierarchy creation
+* Measure groups
+* Cube processing
+* SSAS deployment and configuration
+* OLAP analysis concepts
 
 ---
 
-## Dimensions
-
-The project includes the following dimensions:
-
-* **Date**
-* **Customer**
-* **Product**
-* **Geography**
-* **Employee**
-
----
-
-## Analytical Capabilities
-
-The cube supports analysis such as:
-
-* Sales trend by year, quarter, and month
-* Product performance analysis
-* Customer sales analysis
-* Geographic sales analysis
-* Employee sales performance analysis
-
----
-
-## Screenshots
-
-Screenshots of the cube browser, dimensions, and hierarchies are available in the **`ScreenShots`** folder.
-
----
-
-## How to Open the Project
-
-1. Install **Visual Studio 2022**.
-2. Install the **SQL Server Analysis Services Projects** extension.
-3. Open the solution file in Visual Studio.
-4. Deploy the project to a local or remote SSAS Multidimensional instance.
-5. Process the database and browse the cube.
-
----
 
 ## Author
 
